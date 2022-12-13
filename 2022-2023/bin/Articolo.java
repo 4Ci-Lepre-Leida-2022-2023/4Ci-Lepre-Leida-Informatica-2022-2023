@@ -65,9 +65,9 @@ public class Articolo {
     public String getDescA(){
         return descA;
     }
-    
+    /// NO, IL COSTRUTTORE DI COPIA NON SI FA COSI!!!
     public Articolo(Articolo a){
-        this.codA ++;
+        this.codA ++; //????????????????????????????
         this.prezzo = a.prezzo;
         this.descA = a.descA;
     }
