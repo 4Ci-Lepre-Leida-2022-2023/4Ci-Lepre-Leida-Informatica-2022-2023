@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class VenditaArticolo {
     
     private Articolo a1 = new Articolo();
-    private Scanner sca = new Scanner(System.in);
+    private Scanner sca = new Scanner(System.in);//???????????????????????????????
     
     public void run(){
         getInput();
