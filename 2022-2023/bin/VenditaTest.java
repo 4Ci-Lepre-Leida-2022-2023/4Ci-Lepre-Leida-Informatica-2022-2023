@@ -31,7 +31,7 @@ public class VenditaTest {
         System.out.println(a1.toString());
         
         System.out.println(a1);
-        System.out.println(a2 + "\n");
+        System.out.println(a2 + "\n");// non deve fare questo la classe che contiene il main
         
         System.out.println("Inserire codice: ");
         i1 = s1.nextInt();
